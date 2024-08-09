@@ -1,7 +1,8 @@
 export const About = () => {
     return (
         <div>
-            About page
+            <h1>About</h1>
+            <p>this is about bakery</p>
         </div>
     )
 }

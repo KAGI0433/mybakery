@@ -6,6 +6,7 @@ export const Navigation = () => {
         <nav>
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
+          <Link to= '/menu'>Menu</Link>
         </nav>
     )
 }

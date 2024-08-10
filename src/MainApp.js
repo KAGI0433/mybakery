@@ -4,7 +4,7 @@ import {Home} from './component/Home'
 import {About} from './component/About'
 import Menu from './component/Menu'
 
-const RouterDemo = () => {
+const MainApp = () => {
     return (
         <div>
             <Router>
@@ -32,4 +32,4 @@ const RouterDemo = () => {
     )
 }
 
-export default RouterDemo;
+export default MainApp;

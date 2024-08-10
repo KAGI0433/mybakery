@@ -4,12 +4,13 @@ import {Home} from './component/Home'
 import {About} from './component/About'
 import {Menu} from './component/Menu'
 import {  Navigation } from "./component/Navigation";
+import Navbar from "./component/Navbar";
 
 
 function App() {
   return (
    <>
-   <Navigation/>
+   <Navbar/>
    <Routes>
       <Route path='/' element={<Home />}></Route>
       <Route path='about' element={<About />}></Route>

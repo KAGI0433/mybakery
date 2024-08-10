@@ -1,23 +1,26 @@
 
 import React from 'react'
 import "./Home.css"
-import { MdDoubleArrow } from "react-icons/md";
+import { Link } from "react-router-dom"
+import blur from './Images/blur.jpg'
 export const Home = () => {
     return (
-        <div className='main'>
+        <div className='home'>
             
-            <div className='content-section'>
-            <h2>MINNIE BAKES</h2>
+            <div className='headerContainer'>
+            <h2>MINNIE'S BAKERY</h2>
             <h1>FRESH BAKES</h1>
             <h3>EVERYDAY</h3>
-                <div className='shop-now-btn '>
-                   <button>Shop now!</button>
-                   <MdDoubleArrow />
-                </div>
+                <Link to='/menu'>
+                <button>Shop now!</button>
+                </Link>
+                  
+                   
+                
                 </div>
                 
         </div>
         
     );
-};
+}
 

@@ -3,7 +3,6 @@ import './App.css'
 import {Home} from './component/Home'
 import {About} from './component/About'
 import {Menu} from './component/Menu'
-import {  Navigation } from "./component/Navigation";
 import Navbar from "./component/Navbar";
 
 

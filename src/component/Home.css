@@ -1,40 +1,91 @@
+
 .headerContainer{
     background-image: url('./Images/blur.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-
-.content-section{
-    position: absolute;
-    right: 320px;
-    top: 200px;
+.headerContainer h1{
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  height: 60px;
+  font-weight: 500;
+  color: black;
 }
 
-.content-section h1{
-    font-size: 70px;
-    font-weight: 900;
-    line-align: 65px;
+.headerContainer h2{
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: red;
 }
 
-.content-section h2{
-    font-size: 38px;
-    color: #D7CCC8;
+
+.headerContainer button{
+    font-size: 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    width: 180px;
+    color: white;
+    text-decoration: none;
 }
 
-.content-section h3{
-     font-size: 45px;
-     font-weight: 800;
-     line-height: 70px;
-     text-align: flex;
+.headerContainer button:hover{
+    background-color: blue;
+    cursor:pointer;
+    transition: 0.3s ease-in;
 }
 
-.shop-now-btn{
-    font-weight: 500;
-    colour: #41503F;
-    display: flex;
-    align-items: center;
+@media only screen and (max-width:600px){
+    .home{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .headerContainer {
+        margin-left: 0px;
+        border-radius: 10px;
+        padding: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+    }
+    .headerContainer h1{
+        font-size: 40px;
+        height: 30px;
+    }
+
+    .headerContainer h2{
+        font-size:30px;
+        color: white;
+    }
+
+    .headerContainer button{
+        background-color:white;
+        color: black;
+        margin-button: 30px;
+    }
+
+
+    .headerContainer button:hover{
+        background-color: rgb(225, 225, 225);
+        color:black;
+    }
+
+
+
 }
+
+
 
 
 

@@ -1,0 +1,37 @@
+>.aboutTop{
+    background-image: url('./Images/pink.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.aboutBottom{
+    display: flex;
+    flex-direction: center;
+    height: 55%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.aboutBottom h1{
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutBottom p{
+    width: 1200px;
+}
+
+.about .aboutBottom{
+    font-weight: 400;
+    font-size: 70px;
+    color: black;
+    height:  30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-40px);
+}

@@ -5,7 +5,7 @@ import "./Home.css"
 import { MdDoubleArrow } from "react-icons/md";
 export const Home = () => {
     return (
-        <div className='main mx-[320px] mt-[25px]'>
+        <div className='main'>
             
             <div className='content-section'>
             <h2>MINNIE BAKES</h2>

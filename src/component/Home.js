@@ -2,7 +2,7 @@
 import React from 'react'
 import "./Home.css"
 import { Link } from "react-router-dom"
-import blur from './Images/blur.jpg'
+
 export const Home = () => {
     return (
         <div className='home'>

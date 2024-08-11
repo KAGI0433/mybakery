@@ -15,7 +15,7 @@ function Navbar() {
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>
         <Link to= '/menu'>Menu</Link>
-        </div>
+      
 
         <div className="social-icon-cont">
             <div className="headIcon">
@@ -26,7 +26,7 @@ function Navbar() {
             </div>
             
         </div>
-
+         </div>
         </div>
     );
 }

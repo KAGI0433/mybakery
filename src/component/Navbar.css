@@ -23,16 +23,20 @@
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     
 }
 .navbar a{
-    margin-right:16px;
+    margin-right:20px;
     padding: 0.5rem;
-      position: relative;
-      text-decoration: none;
-      display: inline-block;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
   
   }
+
+
   .navbar a:before{
     position: absolute;
     content: "";
@@ -82,4 +86,27 @@
 .headIcon:hover{
   background-color: #C4E454;
   transform: scale(1.1);    
+}
+
+
+@media only screen and (min-width: 600px) {
+  .navbar .rightSide a{
+    
+  }
+  .navbar .rightSide{
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+}@media only screen and (min-width: 600px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
 }

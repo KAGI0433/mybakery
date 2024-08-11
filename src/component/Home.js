@@ -8,9 +8,9 @@ export const Home = () => {
         <div className='home'>
             
             <div className='headerContainer'>
-            <h2>MINNIE'S BAKERY</h2>
-            <h1>FRESH BAKES</h1>
-            <h3>EVERYDAY</h3>
+            <h1>MINNIE'S BAKERY</h1>
+            <p>FRESH BAKES EVERYDAY!</p>
+            
                 <Link to='/menu'>
                 <button>Shop now!</button>
                 </Link>

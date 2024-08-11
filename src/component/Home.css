@@ -1,20 +1,31 @@
+.home{
+    width:100%;
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    align-items:left;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: url('./Images/baking.jpg');
+    font-family: cursive;
+}
 
 .headerContainer{
-    background-image: url('./Images/baking.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+    width:auto;
+    margin-left: 50px;
 }
 .headerContainer h1{
   justify-content: center;
   align-items: center;
   font-size: 90px;
   height: 60px;
-  font-weight: 500;
+  font-weight: 50;
   color: black;
 }
 
-.headerContainer h2{
+.headerContainer p{
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
@@ -64,7 +75,7 @@
         height: 30px;
     }
 
-    .headerContainer h2{
+    .headerContainer p{
         font-size:30px;
         color: white;
     }

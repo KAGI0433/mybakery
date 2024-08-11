@@ -1,21 +1,17 @@
 import React from "react"
-import { MenuList } from '../helpers/menuList'
-import { MenuItem } from '../component/MenuItem'
 
 
   export const Menu =() => {
     return (
-        <div className="menu">
-            <h1 className="menuTitle">Our Menu</h1>
-            <div className="menuList">
-                {MenuList.map((menuItem, key) => {
-                    return (
-                    <menuItem 
-                    key={key}
-                    image={menuItem.image} name={menuItem.name} price={menuItem.price}/>);
-                })}
+        <>
+        <h1 className="text-center mt-3">Our Menu</h1>
+        <section className="py-4 container">
+            <div className="row justify-content-center">
+
             </div>
-        </div>
-    )
+
+        </section>
+        </>
+ )
 }
 

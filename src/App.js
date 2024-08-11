@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import './App.css'
+import '../node_modules/bootstrap/dist/css/bootstrap-grid.min.css'
 import {Home} from './component/Home'
 import {About} from './component/About'
 import {Menu} from './component/Menu'

@@ -1,13 +1,19 @@
 import React from "react"
 import './About.css'
-
+import Pink from './Images/pink.jpg'
 
 
 export const About = () => {
     return (
         <div className="about">
-            <div className="aboutTop">
-               
+            <div className="aboutTop" style={{
+                width: "1300px",
+                height: "40vh",
+                backgroundImage:`url(${Pink})`,
+                backgroundSize: "cover",
+                backgroundRepeat:"no-repeat",
+                }} >
+                
             </div>
             <div className="aboutBottom"></div>
             <h1>About Us</h1>

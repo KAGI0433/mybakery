@@ -57,3 +57,29 @@
     right: 0;
   }
   
+.social-icon-cont{
+  display:flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.headIcon{
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: #00d084;
+  transition-duration: .5s;
+}
+
+.headIcon-size{
+  width: 30px;
+  headIcon: 30px;
+}
+
+.headIcon:hover{
+  background-color: #C4E454;
+  transform: scale(1.1);    
+}

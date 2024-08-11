@@ -7,42 +7,58 @@ import Pink from '../component/Images/pink.jpg'
 
 
 
-export const MenuList = [
-    
+ const MenuList = {
+      productDate:[
+
     {
-        name: "Carrot cake",
-        image: Carrot,
+        id: 1,
+        img: Carrot,
+        title: "Carrot cake",
+        desc: '',
         price: 25,
     }, 
     
     {
-        name: "Breakfast",
-        image: Breakfast,
+        id: 2,
+        img: Breakfast,
+        title: "Breakfast",
+        desc:'',
         price: 25,
     },
+
+
     {
-        name: "Chocolate Muffin",
-        image: Choco,
+        id: 3,
+        img: Choco,
+        title: "Chocolate Muffin",
         price: 25,
     },
 
     {
-        name: "Redvelvet cake",
-        image: Redvelvet,
+        id: 4,
+        img: Redvelvet,
+        title: "Redvelvet cake",
         price: 25,
     },
 
     {
-        name: "Croissant",
-        image: Crois,
+        id: 5,
+        img: Crois,
+        title: "Croissant",
         price: 25,
     }, 
     
     {
-        name: "Cup Cakes",
-        image: Pink,
+        id: 6,
+        img: Pink,
+        title: "Cup Cakes",
         price: 25,
     },
 
-]
+],
+ };
+
+ export default MenuList;
+
+
 

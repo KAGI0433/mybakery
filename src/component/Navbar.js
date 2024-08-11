@@ -19,7 +19,9 @@ function Navbar() {
 
         <div className="social-icon-cont">
             <div className="headIcon">
+                <Link to='/Login'>
             <BiUser className="headIcon-size"/>
+            </Link>
             </div>
             <div className="headIcon" >
               <BiCart className="headIcon-size" />

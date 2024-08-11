@@ -6,6 +6,7 @@ import {About} from './component/About'
 import {Menu} from './component/Menu'
 import Navbar from "./component/Navbar";
 import { Footer } from "./component/Footer";
+import { Login } from "./component/Login"
 
 
 function App() {
@@ -17,8 +18,12 @@ function App() {
       <Route path='/' element={<Home />}></Route>
       <Route path='about' element={<About />}></Route>
       <Route path='Menu' element={<Menu />}></Route>
+      <Route path='Login' element={<Login />}></Route>
+
+      
     </Routes>
     <Footer />
+    
     </>
   );
 }

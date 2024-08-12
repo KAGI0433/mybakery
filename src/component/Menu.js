@@ -11,7 +11,15 @@ import './Menu.css'
             <div className="card">
                  {MenuList.productDate.map((item, index) =>{
                        return(
-                        <MenuItem img={item.img} title={item.title} desc={item.desc} price={item.price} key={index} />
+                        <MenuItem 
+                        img={item.img} 
+                        title={item.title} 
+                        desc={item.desc} 
+                        price={item.price} 
+                        item={item}
+                        key={index} 
+                        
+                        />
                        )
                  })}
                 

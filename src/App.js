@@ -7,13 +7,15 @@ import {Menu} from './component/Menu'
 import Navbar from "./component/Navbar";
 import { Footer } from "./component/Footer";
 import { Login } from "./component/Login"
+import { Cart } from "./component/Cart"
+import { CartProvider } from "react-use-cart"
 
 
 function App() {
   return (
    <>
-   <Navbar/>
-   
+   <CartProvider>
+    <Navbar />
    <Routes>
       <Route path='/' element={<Home />}></Route>
       <Route path='about' element={<About />}></Route>
@@ -23,7 +25,8 @@ function App() {
       
     </Routes>
     <Footer />
-    
+    <Cart />
+    </CartProvider>
     </>
   );
 }

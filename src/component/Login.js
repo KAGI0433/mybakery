@@ -15,12 +15,12 @@ export const Login = () => {
 
             </div>
             <div className='rightSide'>
-                <h1>Login details</h1>
+                <h1>Login</h1>
                 <form id='login-form' method='POST'>
                     <label htmlForm="name">Full Name</label>
                     <input name='name' placeholder='Enter full name...' type='text'/>
                     <label htmlForm="email">Email</label>
-                
+                    <input name='name' placeholder='Enter full name...' type='text'/>
                      <Link to="./Menu">
                        <button>Submit</button>
                      </Link>

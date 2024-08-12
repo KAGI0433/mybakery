@@ -3,26 +3,38 @@
     height: 90vh;
     display: flex;
 }
+.login .leftSide{
+    height:100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .login .rightSide{
     height: 100%;
     flex: 50%;
-    display: flex;
-    justify-content: center;
+   
 }
 
-.form{
+.login .rightSide h1{
+    font-weight:10;
+    font-size: 50px;
+    margin-left: 30px
+}
+
+form{
     display: flex;
     flex-direction: column;
     width:auto;
     height: auto;
-    padding: 39px;
+    padding: 30px;
 }
 
-.form input{
+form input{
     height: 40px;
     width: 80%;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #121619;
     color:black; 
 }
 
@@ -31,13 +43,15 @@ form textarea{
     height: 70px;
     width: 80%;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #121619;
     color: black;
 }
 
 input::placeholder,
 textarea::placeholder{
-    outline:none;
+    font-weight: bold;
+    color: black;
+
 }
 
 form input:focus,
@@ -56,8 +70,8 @@ form button {
     width: 140px;
     height: 40px;
     border: none;
-    background-color: black;
-    color: white;
-    font-size: 20px;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
     cursor: pointer;
 }

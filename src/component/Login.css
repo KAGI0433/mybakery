@@ -50,7 +50,7 @@ form textarea{
 input::placeholder,
 textarea::placeholder{
     font-weight: bold;
-    color: black;
+    color: grey;
 
 }
 
@@ -61,7 +61,7 @@ textarea:focus{
 
 form label{
     margin-top:15px;
-    color: grey;
+    color: black;
 }
 
 
@@ -71,7 +71,13 @@ form button {
     height: 40px;
     border: none;
     background-color: #121619;
-    color: whitesmoke;
+    color:  #00d084;
     font-size: 15px;
     cursor: pointer;
 }
+
+form button:hover{
+    background-color: #00d084;
+    color:black;
+}
+

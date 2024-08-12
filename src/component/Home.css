@@ -48,7 +48,7 @@
 }
 
 .headerContainer button:hover{
-    background-color: blue;
+    background-color: #00d084;
     cursor:pointer;
     transition: 0.3s ease-in;
 }
@@ -88,7 +88,7 @@
 
 
     .headerContainer button:hover{
-        background-color: rgb(225, 225, 225);
+        background-color: #00d084;
         color:black;
     }
 

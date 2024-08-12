@@ -61,12 +61,12 @@ h1{
     margin-top:20px;
     cursor: pointer;
     transtion: .3s;
-    border: 1px solid blue;
+    border: 1px solid pink;
 }
 
 .btn:hover{
-    background:transparent;
-    color: blue;
+    background: #00d084;
+    color: pink;
 }
 
 .card-img {

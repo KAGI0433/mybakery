@@ -20,7 +20,7 @@ export const Login = () => {
                     <label htmlForm="name">Full Name</label>
                     <input name='name' placeholder='Enter full name...' type='text'/>
                     <label htmlForm="email">Email</label>
-                    <input name='name' placeholder='Enter full name...' type='text'/>
+                    <input name='name' placeholder='email...' type='email'/>
                      <Link to="./Menu">
                        <button>Submit</button>
                      </Link>

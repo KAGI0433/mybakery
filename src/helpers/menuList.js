@@ -1,9 +1,10 @@
-import Carrot from '../component/Images/carrot.jpg'
+import Apple from '../component/Images/apple.jpg'
 import Breakfast from '../component/Images/breakfast.jpg'
-import Choco from '../component/Images/choco.jpg'
-import Crois from '../component/Images/crois.jpg'
-import Redvelvet from '../component/Images/redvelvet.jpg'
-import Pink from '../component/Images/pink.jpg'
+import  Eclair from '../component/Images/eclair.jpg'
+import Puff from '../component/Images/puff.jpg'
+import Mac from '../component/Images/mac.jpg'
+import Mille from '../component/Images/mille.jpg'
+
 
 
 
@@ -12,8 +13,8 @@ import Pink from '../component/Images/pink.jpg'
 
     {
         id: 1,
-        img: Carrot,
-        title: "Carrot cake",
+        img: Apple,
+        title: "Apple pie",
         desc: '',
         price: 25,
     }, 
@@ -21,7 +22,7 @@ import Pink from '../component/Images/pink.jpg'
     {
         id: 2,
         img: Breakfast,
-        title: "Breakfast",
+        title: "Breakfast croissant",
         desc:'',
         price: 25,
     },
@@ -29,29 +30,29 @@ import Pink from '../component/Images/pink.jpg'
 
     {
         id: 3,
-        img: Choco,
-        title: "Chocolate Muffin",
+        img: Eclair,
+        title: "Eclair",
         price: 25,
     },
 
     {
         id: 4,
-        img: Redvelvet,
-        title: "Redvelvet cake",
+        img: Mac,
+        title: "Macaroons",
         price: 25,
     },
 
     {
         id: 5,
-        img: Crois,
-        title: "Croissant",
+        img: Mille,
+        title: "Mille feuille",
         price: 25,
     }, 
     
     {
         id: 6,
-        img: Pink,
-        title: "Cup Cakes",
+        img: Puff,
+        title: "Puff pastry",
         price: 25,
     },
 

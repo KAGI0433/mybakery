@@ -1,6 +1,6 @@
 import React from "react"
 import MenuItem from'./MenuItem'
-import MenuList from '../helpers/MenuList'
+import MenuList from './MenuList'
 import './Menu.css'
 
   export const Menu =()  => {

@@ -1,6 +1,6 @@
 import React from "react"
 import './About.css'
-import Pink from './Images/pink.jpg'
+import Cute from './Images/cute.png'
 
 
 export const About = () => {
@@ -9,7 +9,7 @@ export const About = () => {
             <div className="aboutTop" style={{
                 width: "1300px",
                 height: "40vh",
-                backgroundImage:`url(${Pink})`,
+                backgroundImage:`url(${Cute})`,
                 backgroundSize: "cover",
                 backgroundRepeat:"no-repeat",
                 }} >

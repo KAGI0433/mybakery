@@ -1,5 +1,5 @@
 import React from 'react'
-import Blur from './Images/blur.jpg'
+import Baked from './Images/baked.png'
 import { Link } from "react-router-dom"
 import './Login.css'
 export const Login = () => {
@@ -8,7 +8,7 @@ export const Login = () => {
             <div className='leftSide' style={{
                 width: "80vh",
                 height: "500px",
-                backgroundImage: `url(${Blur})`,
+                backgroundImage: `url(${Baked})`,
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
             }}>
